@@ -2,7 +2,7 @@
     <Page id="page" title="{i18n>title}">
         <content>
             <Button xmlns="sap.m" text="Home" id="button0" activeIcon="sap-icon://addresses" icon="sap-icon://addresses"/>
-            <Button xmlns="sap.m" text="Bookmark" id="button0_1660744563911" activeIcon="sap-icon://add-favorite" icon="sap-icon://add-favorite"/>
+            <Button xmlns="sap.m" text="New Button" id="button0_1660744563911" activeIcon="sap-icon://add-favorite" icon="sap-icon://add-favorite"/>
             <List noDataText="Drop list items here" id="list0" items="{/BusinessPartnerSet}">
                 <items>
                     <StandardListItem type="Navigation" title="{CompanyName}" description="{WebAddress}" icon="sap-icon://picture" id="item0"/>
